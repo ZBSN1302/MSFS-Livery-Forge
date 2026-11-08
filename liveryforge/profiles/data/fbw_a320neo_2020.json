@@ -1,0 +1,28 @@
+{
+  "id": "fbw_a320neo_2020",
+  "name": "FlyByWire A320neo（2020 legacy / DDS）",
+  "generation": "2020",
+  "aircraft_path": "SimObjects/AirPlanes/FBW_A320_NEO",
+  "creator_folder": "liveryforge",
+  "content_type": "AIRCRAFT",
+  "package_order_hint": "",
+  "required_tags": "",
+  "texture_cfg_fallbacks": [
+    "..\\..\\FlyByWire_A320_NEO\\TEXTURE",
+    "..\\..\\..\\..\\texture\\DetailMap",
+    "..\\..\\..\\..\\texture\\Glass",
+    "..\\..\\..\\..\\texture\\Interiors",
+    "..\\..\\..\\..\\texture"
+  ],
+  "thumbnail_sizes": {
+    "thumbnail.jpg": 1600,
+    "thumbnail_small.jpg": 600
+  },
+  "base_container": "..\\FlyByWire_A320_NEO",
+  "notes": "2020 legacy(DDS) 模式：需要安装 FlyByWire A320neo（flybywire-aircraft-a320-neo）。生成变体目录 SimObjects/AirPlanes/FBW_A320_NEO-<ICAO码>，base_container 指向 ..\\FlyByWire_A320_NEO；贴图为 *.PNG.DDS + .DDS.json + texture.CFG + thumbnail*.jpg。对应真实包 flybywire-aircraft-a320-neo-livery-CHH。",
+  "manufacturer": "Airbus",
+  "minimum_game_version": "1.23.12",
+  "minimum_compatibility_version": "0.23.12.0",
+  "sort_order": 40,
+  "aircraft_cfg_template": "[VERSION]\nmajor = 1\nminor = 0\n\n[VARIATION]\nbase_container = \"{base_container}\"\n\n;===================== FLTSIM =====================\n\n[FLTSIM.0]\ntitle = \"{title}\" ; Variation name\ntexture = \"{texture}\" ; texture folder\nui_variation = \"{ui_variation}\" ; e.g. World Air, IFR Panel\natc_id = \"{atc_id}\" ; tail number\natc_id_enable = 0 ; enable tail number\natc_airline = \"{atc_airline}\" ; airline name\natc_flight_number = \"{atc_flight_number}\" ; flight number\nicao_airline = \"{icao_airline}\""
+}

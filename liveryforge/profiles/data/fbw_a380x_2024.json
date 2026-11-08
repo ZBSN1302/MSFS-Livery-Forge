@@ -1,0 +1,22 @@
+{
+  "id": "fbw_a380x_2024",
+  "name": "FlyByWire A380X（2024 原生）",
+  "generation": "2024",
+  "aircraft_path": "SimObjects/Airplanes/FlyByWire_A380X",
+  "creator_folder": "liveryforge",
+  "content_type": "AIRCRAFT",
+  "package_order_hint": "",
+  "required_tags": "",
+  "texture_cfg_fallbacks": [],
+  "thumbnail_sizes": {
+    "thumbnail.png": 1600,
+    "thumbnail-small.png": 600
+  },
+  "base_container": "",
+  "notes": "需要安装 FlyByWire A380X（freeware，Community 包 flybywire-aircraft-a380-842）。对应真实包 KFS_FBWA380_ANA-JA382A_2024，涂装路径 SimObjects/Airplanes/FlyByWire_A380X/liveries/flybywire/<涂装名>。",
+  "manufacturer": "Airbus",
+  "minimum_game_version": "1.0.88",
+  "minimum_compatibility_version": "0.88.0.40",
+  "sort_order": 20,
+  "livery_cfg_template": "[version]\nmajor = 1\nminor = 0\n\n[GENERAL]\nName = \"{title}\"\n\n[FLTSIM]\natc_id = \"{atc_id}\"\natc_airline = \"{atc_airline}\"\nicao_airline = \"{icao_airline}\""
+}

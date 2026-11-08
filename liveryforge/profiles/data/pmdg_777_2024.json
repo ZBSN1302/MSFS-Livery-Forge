@@ -1,0 +1,24 @@
+{
+  "id": "pmdg_777_2024",
+  "name": "PMDG 777-300ER（2024 原生）",
+  "generation": "2024",
+  "aircraft_path": "SimObjects/Airplanes/PMDG 777-300ER",
+  "creator_folder": "liveryforge",
+  "content_type": "LIVERY",
+  "package_order_hint": "",
+  "required_tags": "b77w_ext,engine_gew",
+  "texture_cfg_fallbacks": [],
+  "thumbnail_sizes": {
+    "thumbnail.png": 1600,
+    "thumbnail_small.png": 600,
+    "thumbnail_side.png": 930,
+    "thumbnail_button.png": 830
+  },
+  "base_container": "",
+  "notes": "需要安装 PMDG 777-300ER（pmdg-aircraft-77w）。required_tags=b77w_ext,engine_gew 必须保留，否则涂装在 PMDG 选装界面不可见。注意：真实 PMDG 涂装通常还带 livery.json、model.airframe/ 等 PMDG 专属文件，内置 profile 生成的是纯涂装包；若机库不显示，请改用「克隆现有涂装」模式（以已安装 PMDG 涂装为模板）。对应真实包 jeffs_livery_pmdg_77w_B7349_2024 / Captain Simon B77W 2024。",
+  "manufacturer": "Boeing",
+  "minimum_game_version": "1.4.20",
+  "minimum_compatibility_version": "4.20.0.73",
+  "sort_order": 30,
+  "livery_cfg_template": "[Version]\nmajor = 1\nminor = 1\n\n[Selection]\nrequired_tags = \"{required_tags}\"\n\n[GENERAL]\nname = \"{title}\"\natc_id = \"{atc_id}\"\natc_airline = \"{atc_airline}\"\nicao_airline = \"{icao_airline}\"\nui_variation = \"{ui_variation}\""
+}

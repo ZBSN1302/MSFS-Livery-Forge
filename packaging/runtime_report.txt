@@ -1,0 +1,13 @@
+﻿MSFS 2024 涂装工坊 —— 便携运行时构建报告
+生成时间 : 2026-11-08 14:38:33
+源目录   : C:\Users\Administrator\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python
+源版本   : Python 3.12.14
+目标目录 : D:\Artificial Intelligence\workspace\test\msfs-livery-forge\runtime
+文件数量 : 1704
+总大小   : 53.3 MB
+
+顶层目录占用：
+  DLLs                 16.9 MB
+  Lib                  24.6 MB
+  tcl                   4.7 MB
+  (根目录文件)               7.1 MB

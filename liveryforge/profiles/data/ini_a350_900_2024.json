@@ -1,0 +1,25 @@
+{
+  "id": "ini_a350_900_2024",
+  "name": "iniBuilds A350-900（2024 原生）",
+  "generation": "2024",
+  "aircraft_path": "SimObjects/Airplanes/A350",
+  "creator_folder": "liveryforge",
+  "content_type": "AIRCRAFT",
+  "package_order_hint": "",
+  "required_tags": "ext_a359",
+  "texture_cfg_fallbacks": [],
+  "thumbnail_sizes": {
+    "thumbnail.png": 1600,
+    "thumbnail_small.png": 600,
+    "thumbnail_side.png": 930,
+    "thumbnail_button.png": 830,
+    "thumbnail_popup.png": 1400
+  },
+  "base_container": "",
+  "notes": "需要安装 iniBuilds A350-900（inibuilds-aircraft-a350）。required_tags=ext_a359 来自真实包 jeffs-livery-ini-a350-900-CAL-B18901 的 [Selection]，缺失会导致涂装不显示。真实包还带 [Panel_DynamicParameters] 与包级 Config/ 目录，新建简单涂装可省略。",
+  "manufacturer": "Airbus",
+  "minimum_game_version": "1.3.23",
+  "minimum_compatibility_version": "3.19.0.47",
+  "sort_order": 50,
+  "livery_cfg_template": "[Version]\nmajor = 1\nminor = 0\n\n[General]\nname = \"{title}\"\natc_id = \"{atc_id}\"\natc_airline = \"{atc_airline}\"\nicao_airline = \"{icao_airline}\"\n\n[Selection]\nrequired_tags = \"{required_tags}\"\n\n[Panel_DynamicParameters]\nparam.0 = \"airline,{title}\""
+}

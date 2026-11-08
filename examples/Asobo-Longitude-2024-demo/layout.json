@@ -1,0 +1,69 @@
+{
+  "content": [
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/livery.cfg",
+      "size": 191,
+      "date": 134385938515484707
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_ALBD.PNG.KTX2",
+      "size": 1398704,
+      "date": 134385938521406729
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_ALBD.PNG.KTX2.json",
+      "size": 144,
+      "date": 134385938521416728
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_COMP.PNG.KTX2",
+      "size": 1398736,
+      "date": 134385938521526752
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_COMP.PNG.KTX2.json",
+      "size": 191,
+      "date": 134385938521536742
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_NORM.PNG.KTX2",
+      "size": 1398736,
+      "date": 134385938516724714
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/EXAMPLE_FUSELAGE_NORM.PNG.KTX2.json",
+      "size": 185,
+      "date": 134385938516734752
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/texture/texture.cfg",
+      "size": 257,
+      "date": 134385938521566728
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/thumbnail/thumbnail.png",
+      "size": 48323,
+      "date": 134385938522246733
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/thumbnail/thumbnail_button.png",
+      "size": 23544,
+      "date": 134385938522746725
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/thumbnail/thumbnail_popup.png",
+      "size": 41284,
+      "date": 134385938523136733
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/thumbnail/thumbnail_side.png",
+      "size": 26454,
+      "date": 134385938522576761
+    },
+    {
+      "path": "SimObjects/Airplanes/asobo_longitude/liveries/liveryforge/Livery Forge 测试涂装/thumbnail/thumbnail_small.png",
+      "size": 16630,
+      "date": 134385938522366727
+    }
+  ]
+}

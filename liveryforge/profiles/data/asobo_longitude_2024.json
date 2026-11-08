@@ -1,0 +1,33 @@
+{
+  "id": "asobo_longitude_2024",
+  "name": "Asobo 塞斯纳 Longitude（2024 原生）",
+  "generation": "2024",
+  "aircraft_path": "SimObjects/Airplanes/asobo_longitude",
+  "creator_folder": "liveryforge",
+  "content_type": "LIVERY",
+  "package_order_hint": "SIMOBJECTS_PATCH",
+  "required_tags": "",
+  "texture_cfg_fallbacks": [
+    "..\\..\\..\\..\\..\\..\\..\\texture\\Dirts",
+    "..\\..\\..\\..\\..\\..\\..\\texture\\detailMap",
+    "..\\..\\..\\..\\..\\..\\..\\texture\\Glass",
+    "..\\..\\..\\..\\..\\..\\..\\texture\\Lights",
+    "..\\..\\..\\..\\..\\..\\..\\texture\\Planes_Generic",
+    "..\\..\\..\\..\\..\\..\\..\\SimObjects\\Humans\\texture",
+    "..\\..\\..\\..\\..\\..\\..\\SimObjects\\Humans\\texture\\Technician"
+  ],
+  "thumbnail_sizes": {
+    "thumbnail.png": 1600,
+    "thumbnail_small.png": 600,
+    "thumbnail_side.png": 930,
+    "thumbnail_button.png": 830,
+    "thumbnail_popup.png": 1400
+  },
+  "base_container": "",
+  "notes": "默认机型，无需第三方机模。对应真实包 livery-longitude-n233cl（SimObjects/Airplanes/asobo_longitude/liveries/<creator>/<涂装名>）。",
+  "manufacturer": "Cessna",
+  "minimum_game_version": "1.4.20",
+  "minimum_compatibility_version": "4.20.0.73",
+  "sort_order": 10,
+  "livery_cfg_template": "[Version]\nmajor = 1\nminor = 0\n\n[GENERAL]\nName = \"{title}\"\natc_id = \"{atc_id}\"\natc_airline = \"{atc_airline}\"\nicao_airline = \"{icao_airline}\"\nui_variation = \"{ui_variation}\""
+}
