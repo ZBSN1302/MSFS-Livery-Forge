@@ -1,0 +1,18 @@
+MSFSLayoutGenerator - bundled third-party tool
+===============================================
+
+MSFSLayoutGenerator.exe in this folder is an unmodified copy of MSFSLayoutGenerator
+by Brandon Filer (HughesMDflyer4), redistributed here under the terms of its MIT
+license (see the LICENSE file alongside this notice).
+
+  Version bundled : 1.1.2
+  Source / home   : https://github.com/HughesMDflyer4/MSFSLayoutGenerator
+  License         : MIT - Copyright (c) 2020 Brandon Filer (see LICENSE)
+
+MSFS Livery Toolkit calls this tool as a separate program (arm's length) to
+regenerate a package's layout.json after a build. It is not modified and this app's
+own code is not combined with it.
+
+It is bundled purely for convenience so the toolkit works out of the box. You can
+point the toolkit at your own copy instead (Config -> MSFSLayoutGenerator path), for
+example to use a newer release than the one bundled here.

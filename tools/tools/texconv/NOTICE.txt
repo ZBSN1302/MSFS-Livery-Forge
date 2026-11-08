@@ -1,0 +1,17 @@
+texconv (Microsoft DirectX Texture Converter)
+=============================================
+
+Bundled here: texconv.exe, version 2026.5.8.1 (DirectXTex).
+Part of the Microsoft DirectXTex library — https://github.com/microsoft/DirectXTex
+License: MIT (see the LICENSE file in this folder), Copyright (c) Microsoft Corporation.
+
+Used by the MSFS Livery Toolkit as the DDS encoder for the MSFS 2020 "compile without the
+SDK" method: it converts a livery's source PNGs to compiled BC1/BC3/BC5/BC7 DDS textures so a
+2020 livery can be built with no MSFS 2020 SDK or simulator installed. texconv is invoked at
+arm's length as a separate process; it is never linked into the application.
+
+Accompanying redistributable runtime DLLs (also bundled in this folder so texconv is
+self-contained on any machine):
+  vcruntime140.dll, vcruntime140_1.dll, msvcp140.dll, vcomp140.dll
+These are the Microsoft Visual C++ 2015-2022 Redistributable runtime files, redistributable
+under the Microsoft Visual Studio redistributable license.
